@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HL-delivery.com</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="pictures/car-speed-travel-vehicle-high-29573.png">
+    <script src="https://kit.fontawesome.com/bd6a9566bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="site">
+        <section class="back">
+            <img class="sky" src="pictures/big_z773k7dc.jpg" alt="">
+            <img class="fon" src="pictures/World___USA_Road_to_the_mountains__USA_065503_.jpg" alt="" id="fon">
+            <img class="mountain" src="pictures/gori.png" alt="" id="gori">
+            <img class="moon"src="pictures/moon_PNG36.png" alt="" id="moon">
+            <div class="bg-phone">
+                <img class="bg-img" src="pictures/matterhorn-shutterstock_1118486243.jpg" alt="">
+            </div>
+<section class="text" >
+            <h3 id="text" class="logo">HIGH-LEVEL DELIVERY</h3>  
+            <h4 id="text2">AS FAST AS LIGHTNING </h4>  
+              <section class="buttons">
+    <input class="sign" type="button" value="LOGIN" id="login-btn">
+    <input class="register-btn" type="button" value="REGISTER" id="register-btn">
+    </section>
+</section>
+        </section>
+        <div id="shopping">
+
+        </div>
+        <div class="footer" id="footer">
+        <footer >
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+            <div class="main-cont">
+            <div class="left box">
+               <span> <h2>About us</h2></span>
+                <div class="content-footer">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus magnam ipsa amet? Maxime dolorum ad aut iusto, natus reiciendis asperiores quidem ab earum assumenda provident ex consectetur laborum nam obcaecati?</p>
+                    <div class="social">
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                        <a href="#"> <i class="fab fa-facebook-square"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter-square"></i> </a>
+                        <a href="#"> <i class="fas fa-envelope"></i> </a>
+                    </div> <!-- social-->
+                </div> <!--content footer-->
+            </div>
+            <div class="center box">
+               <span><h2>Address</h2></span> 
+                <div class="content-footer">
+                    <div class="place">
+                     <span><i class="fas fa-map-marker-alt"></i></span>   
+                        <span> Address here......</span>
+                    </div>                    
+                    <div class="phone">
+                        <span><i class="fas fa-phone"></i></span>   
+                           <span> +994(50)1234567</span>
+                       </div>
+                       <div class="mail-foot">
+                        <span><i class="fas fa-envelope"></i></span>   
+                           <span> Example@example.com</span>
+                       </div>
+
+                </div> <!-- content-->
+            </div> <!--CENTRE -->                       
+                       <div class="right box">
+                       <span><h2>Contact us</h2></span> 
+                        <div class="content">
+                            <form action="#">
+                                <div class="email-foot">
+                                    <div class="text">Email *</div>
+                                    <input class="em-foot" type="email" required>
+
+                                </div>
+                                <div class="msg">
+                                    <div class="text">Message *</div>
+                                    <textarea  cols="25" rows="2" required></textarea>
+                                    <div class="btn-foot">
+                                        <button class="send" type="submit"> send</button>
+                                    </div>
+                                </div>
+
+
+                            </form>
+
+                        </div>
+                       </div> <!-- right-->
+
+
+            </div> <!-- main-->
+             
+        </footer>
+        </div>
+
+    </div> <!--site-->
+    <script type="text/javascript">
+    let fon = document.getElementById("fon");
+    let mountain = document.getElementById("gori");
+    let moon = document.getElementById("moon");
+    let text =document.getElementById("text");
+    let text2 =document.getElementById("text2");
+    window.addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+
+
+        moon.style.left = value * 0.5 + 'px';
+        mountain.style.top = value * 0.23 + 'px';
+        text.style.top = -value * 0.3 + 'px';
+        text2.style.top = -value * 0.3 + 'px';
+   
+    })
+    </script>
+
+    <script src="./scripts/catalog.js"></script> 
+    <script src="./scripts/root.js"></script>       
+    <script src="./scripts/main.js"></script>  
+    <script src="./scripts/login.js"></script>
+    <script src="./scripts/register.js"></script> 
+   
+    <script src="./scripts/link.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 200,
+          duration: 500,
+          startEvent: 'DOMContentLoaded'
+      });
+    </script>
+</body>
+</html>

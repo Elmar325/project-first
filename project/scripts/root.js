@@ -1,0 +1,1 @@
+const ROOT_SHOPPING = document.getElementById('shopping');
